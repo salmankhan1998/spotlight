@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../public/stylesheet.css">
+</head>
+<body>
+    <section class="home-img relative w-full h-auto z-0">
+        <div class="flex justify-between items-center fixed w-full h-24 px-6 sm:px-10 md:px-12 lg:px-24 bg-black-900">
+            <a href="../html/index.html" class="w-30 h-11 object-cover">
+                <img class="w-full h-full" src="../public/images/spotlight-logo.svg" alt="Logo">
+            </a>
+
+            <nav>
+                <ul class="hidden md:flex items-center justify-center list-none text-gray-800">
+                    <li class="md:mx-2.5 lg:mx-4">
+                        <a href="../html/index.html" class="links">home</a>
+                    </li>
+                    <li class="md:mx-2.5 lg:mx-4">
+                        <a href="../html/who_we_are.html" class="links">who we are</a>
+                    </li>
+                    <li class="md:mx-2.5 lg:mx-4">
+                        <a href="#what-we-do" class="links">what we do</a>
+                    </li>
+                    <li class="md:mx-2.5 lg:mx-4">
+                        <a href="#clients" class="links">client</a>
+                    </li>
+                    <li class="md:mx-2.5 lg:mx-4">
+                        <a href="#blogs" class="links">blogs</a>
+                    </li>
+                    <li class="md:mx-2.5 lg:mx-4">
+                        <a href="#" class="links">contact</a>
+                    </li>
+                </ul>
+                <div class="w-9 h-9 md:hidden">
+                    <img src="../public/images/mobile-menu.svg" class="sm:block md:hidden" alt="Mobile Icon">
+                </div>
+            </nav>
+        </div>
+
+        <div class="flex flex-col pl-10 sm:pl-14 md:pl-24 pb-14 pt-36">
+            <h5 class="text-base sm:text-lg md:text-xl font-semibold text-gray-800 uppercase mb-1">let's discuss your project</h5>
+            <h1 class="text-4xl sm:text-6xl text-white leading-tight font-semibold uppercase">contact</h1>
+        </div>
+    </section>
+
+    <section class="md:container mx-auto p-10 sm:p-12 md:px-14 py-16">
+        <div class="flex flex-col md:flex-row gap-9">
+            <div class="w-full md:w-3/5">
+                <h2 class="text-3xl sm:text-4xl font-semibold text-black-900 mb-8">Send us a Message</h2>
+
+                <form action="method">
+                    <div class="flex flex-row items-center">
+                        <div class="h-6 w-6">
+                            <img src="../public/images/icon/name.svg" alt="">
+                        </div>
+                        <label for="name" class="text-base font-bold ml-2">Name:</label>
+                    </div>
+
+                    <input type="text" name="name" id="name" placeholder="John Smith" class="w-full p-3 mt-4 mb-8 border border-solid border-black-700 focus:outline-none focus:ring-2 focus:ring-yellow-700 focus:border-transparent">
+
+                    <div class="flex flex-row items-center">
+                        <div class="h-6 w-6">
+                            <img src="../public/images/icon/email.svg" alt="">
+                        </div>
+                        <label for="name" class="text-base font-bold ml-2">Email:</label>
+                    </div>
+
+                    <input type="email" name="name" id="name" placeholder="John@smith.com" class="w-full p-3 mt-4 mb-8 border border-solid border-black-700 focus:outline-none focus:ring-2 focus:ring-yellow-700 focus:border-transparent">
+
+                    <div class="flex flex-row items-center">
+                        <div class="h-6 w-6">
+                            <img src="../public/images/icon/message.svg" alt="">
+                        </div>
+                        <label for="name" class="text-base font-bold ml-2">Message:</label>
+                    </div>
+
+                    <textarea name="message" id="message" rows="5" class="w-full p-3 mt-4 mb-8 border border-solid border-black-700 focus:outline-none focus:ring-2 focus:ring-yellow-700 focus:border-transparent"></textarea>
+                    
+                    <button class="bg-yellow-300 text-black-800 rounded-full  w-max font-semibold px-6 py-3 lg:px-8 lg:py-4 border-2 border-white focus:outline-none focus:ring-2 focus:ring-yellow-700">Submit</button>
+                </form>
+            </div>
+            <div>
+                <h2 class="text-3xl sm:text-4xl font-semibold text-black-900 mb-8">Our Details</h2>
+
+                <ul class="flex flex-col list-none text-gray-800">
+                    <li class="pb-2 flex items-center">
+                        <div class="w-6 h-6 object-cover mr-3">
+                            <img src="../public/images/icon/mail.svg"  alt="">
+                        </div>
+                        <a href="#" class="text-gray-800 font-semibold">info@spotlight.com</a>
+                    </li>
+                    <li class="pb-2 flex">
+                        <div class="w-6 h-6 object-cover mr-3">
+                            <img src="../public/images/icon/phone.svg" alt="">
+                        </div>
+                        <a href="#" class="text-gray-800 font-semibold">07717 131 511</a>
+                    </li>
+
+                    <li class="pb-2 flex">
+                        <div class="w-6 h-6 object-cover mr-3">
+                            <img src="../public/images/icon/location.svg" alt="">
+                        </div>
+                        <a href="#" class="text-black-900 leading-8 font-semibold">104 Wrington Close,<br>Little Stoke,<br>Bristol<br>BS34 6ET</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="w-full bg-black-900 relative">
+        <div class="flex flex-col py-20 px-8 md:px-12 lg:px-20 sm:mx-6">
+            <div class="flex flex-col gap-5 sm:flex-row sm:gap-8 pb-6 border-b border-gray-800">
+                <div class="w-full sm:w-3/5">
+                    <div class="w-30 h-11 object-cover mb-8">
+                        <img class="w-full h-full" src="../public/images/spotlight-logo.svg" alt="Logo">
+                    </div>
+                    <p class="text-white mb-4">We create media content for the construction, property and trades industries, offering videography, web and design services across the UK.</p>
+                    <p class="text-white mb-4">We pride ourselves on our high standards, from concept right through to completion.</p>
+                    <p class="text-white mb-4">We are Spotlight Media.</p>
+                </div>
+                <div>
+                    <h4 class="text-2xl sm:text-3xl text-white mb-6 sm:mb-10">Menu</h4>
+
+                    <ul class="flex flex-col list-none text-gray-800">
+                        <li class="pb-2">
+                            <a href="#" class="links">home</a>
+                        </li>
+                        <li class="pb-2">
+                            <a href="#" class="links">who we are</a>
+                        </li>
+                        <li class="pb-2">
+                            <a href="#" class="links">what we do</a>
+                        </li>
+                        <li class="pb-2">
+                            <a href="#" class="links">client</a>
+                        </li>
+                        <li class="pb-2">
+                            <a href="#" class="links">blogs</a>
+                        </li>
+                        <li class="pb-2">
+                            <a href="#" class="links">contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-2xl sm:text-3xl text-white mb-6 sm:mb-10">Contact</h4>
+
+                    <ul class="flex flex-col list-none text-gray-800">
+                        <li class="pb-2 flex items-center">
+                            <div class="w-6 h-6 object-cover mr-3">
+                                <img src="../public/images/mail-logo.svg"  alt="">
+                            </div>
+                            <a href="#" class="links">info@spotlight.com</a>
+                        </li>
+                        <li class="pb-2 flex">
+                            <div class="w-6 h-6 object-cover mr-3">
+                                <img src="../public/images/phone-logo.svg" alt="">
+                            </div>
+                            <a href="#" class="links">07717 131 511</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex items-center  md:justify-between mt-10 flex-col md:flex-row">
+                <div class="text-white text-center font-semibold order-2 md:order-none ">&copy; 2020 Spotlight Media. All rights reserved.</div>
+
+                <ul class="flex flex-col md:flex-row items-center list-none text-gray-800 order-1 md:order-none">
+                    <li class="links">
+                        <a href="#" class="links">Terms & Condition</a>
+                    </li>
+                    <div class="bg-white w-5 h-0.5 md:w-0.5 md:h-5 my-1 md:mx-4"></div>
+                    <li class="links">
+                        <a href="#" class="links">Privacy Policy</a>
+                    </li>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

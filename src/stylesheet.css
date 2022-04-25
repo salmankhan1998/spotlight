@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.home-img{
+    background: url("../public/images/banner-bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links{
+    @apply pb-1 capitalize font-semibold hover:text-white border-transparent border-b-2 hover:border-yellow-300 transition duration-300 ease-linear;
+}
+
+.primary-btn{
+    @apply bg-yellow-300 text-black-800 font-semibold capitalize rounded-full hover:bg-white transition duration-300 ease-out;
+}
+
+.secondary-btn{
+   @apply ml-3 text-gray-500 font-semibold capitalize rounded-full border-2 border-gray-500 hover:bg-gray-500 hover:text-white transition duration-300 ease-out;
+} 
